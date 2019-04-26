@@ -26,6 +26,6 @@ end
 
 def reverse_array(array)
    array.sort do | a , b |
-      a[-1] <=> b[0]
+      a[0] <=> b
     end
 end
