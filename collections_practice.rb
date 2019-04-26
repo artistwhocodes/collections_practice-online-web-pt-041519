@@ -42,7 +42,7 @@ def find_a(array)
   # end
   new_arr = []
   array.each do |e|
-    if e[0] = "a"
+    if e[0] == "a"
       new_arr << e
     end
   end
