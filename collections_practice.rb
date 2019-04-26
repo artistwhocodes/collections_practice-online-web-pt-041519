@@ -61,7 +61,7 @@ def add_s(array)
   new_arr = []
   array.each do |w|
     if w != w[1]
-      w << "s"
+      new_arr << "s"
     end
   end
   return new_arr
