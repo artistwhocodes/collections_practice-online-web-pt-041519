@@ -40,10 +40,11 @@ def find_a(array)
   # array.select do | e |
   #   e.start_with?("a")
   # end
-
+  new_arr = []
   array.each do |e|
     if e[0] = "a"
-      return array
+      new_arr << e
+      return new_arr
     end
   end
 end
