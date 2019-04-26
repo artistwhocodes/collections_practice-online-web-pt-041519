@@ -56,3 +56,13 @@ def sum_array(array)
   end
   sum
 end
+
+def add_s(array)
+  new_arr = []
+  array.each do |w|
+    if w not w[1]
+      w << "s"
+    end
+  end
+  return new_arr
+end
