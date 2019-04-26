@@ -29,8 +29,9 @@ def reverse_array(array)
 end  #is there another way to do this with sort
 
 def kesha_maker(array)
-  array.each do |e|
-    e[2] = "$"
-  end
-  return array
+  # array.each do |e|
+  #   e[2] = "$"
+  # end
+  # return array
+    array.each{|e| e[2] = $}
 end
