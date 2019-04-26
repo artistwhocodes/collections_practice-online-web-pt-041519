@@ -55,5 +55,4 @@ def sum_array(array)
     count += 1
     sum = a + b
   end
-  return sum
 end
