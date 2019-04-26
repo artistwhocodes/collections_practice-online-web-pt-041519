@@ -33,5 +33,5 @@ def kesha_maker(array)
   #   e[2] = "$"
   # end
   # return array
-    array.each{|e| e[2] = $}
+    array.each{|e| e[2] = "$"}
 end
