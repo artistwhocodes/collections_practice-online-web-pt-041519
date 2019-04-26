@@ -44,7 +44,6 @@ def find_a(array)
   array.each do |e|
     if e[0] = "a"
       return
-    end
 end
 
 # def sum_array(array)
