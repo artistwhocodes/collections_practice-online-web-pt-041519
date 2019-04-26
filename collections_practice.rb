@@ -51,7 +51,7 @@ end
 
 def sum_array(array)
   count = 0
-  array.sort do | a , b |
+  array.each do | a , b |
     count += 1
     sum = a + b
   end
