@@ -26,4 +26,11 @@ end
 
 def reverse_array(array)
    array.reverse
+end  #is there another way to do this with sort
+
+def kesha_maker(array) 
+  array.each do |e|
+    e[2] = $
+  end
+  return array
 end
