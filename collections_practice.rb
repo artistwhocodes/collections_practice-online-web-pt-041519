@@ -60,8 +60,8 @@ end
 def add_s(array)
   new_arr = []
   array.each do |w|
-    if w != 1
-      w << "s"
+    if w != w[1]
+      w = w + "s"
     end
     new_arr << w
   end
