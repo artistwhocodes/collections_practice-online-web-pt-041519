@@ -50,9 +50,8 @@ def find_a(array)
 end
 
 def sum_array(array)
-  count = 0
-  array.each do | a |
-    count += 1
-    sum = a + b
+  sum = 0
+  array.each do | n |
+    sum += n
   end
 end
